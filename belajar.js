@@ -1,4 +1,4 @@
-// 🗺️PENGENALAN TYPE DATA
+// 🗺️ 1. PENGENALAN TYPE DATA
 /*
 console.log("hello world")
 console.log(typeof("hello world"))
@@ -32,7 +32,7 @@ console.log(nama);
 console.log(typeof(nama))
 */
 
-// 🗺️VARIABEL LET, CONST & VAR
+// 🗺️ 2. VARIABEL LET, CONST & VAR
 // var tempat = 'Jakarta'
 // tempat = 'Surabaya'
 // console.log(tempat);
@@ -49,7 +49,7 @@ console.log(typeof(nama))
 // phi = 4
 // console.log(phi);
 
-// 🗺️OPERATOR
+// 🗺️ 3. OPERATOR
 // console.log(5 + 2)
 // console.log('Ahmad' + 'Faiz')
 
@@ -80,7 +80,7 @@ console.log(typeof(nama))
 
 // console.log(laptop !== 'Asus')
 
-// 🗺️CONDITIONAL
+// 🗺️ 4. CONDITIONAL
 // const kewarganegaraan = 'Indonesia'
 
 // if(kewarganegaraan === 'Indonesia'){
@@ -101,7 +101,7 @@ console.log(typeof(nama))
 //   console.log('Tidak diketahui')
 // }
 
-// 🗺️FUNGSI
+// 🗺️ 5. FUNGSI
 // namaLengkap('John', 'Foe', 'Doe')
 
 // function namaLengkap(namaDepan, namaTengah, namaBelakang){
@@ -120,7 +120,7 @@ console.log(typeof(nama))
 // angka(5)
 // angka(10)
 
-// 🗺️Built in feature JavaScript
+// 🗺️ 6. Built in feature JavaScript
 
 // const aplikasi = 'zoom'
 
@@ -147,7 +147,7 @@ console.log(typeof(nama))
 // console.log(angka1 + angka2)
 // console.log(typeof(angka1), typeof(angka2))
 
-// 🗺️EVENT
+// 🗺️ 7. EVENT
 // document.querySelector("html").addEventListener("click", function () {
 //   alert("Anda salah klik");
 // });
@@ -166,7 +166,7 @@ console.log(typeof(nama))
 //   }
 // };
 
-// 🗺️JAVASCRIPT STANDARD
+// 🗺️ 8. JAVASCRIPT STANDARD
 // console.log('Faiz') //ok
 // console.log("Geocourse.id") //hindari
 
@@ -214,7 +214,7 @@ console.log(typeof(nama))
 
 // console.log(namadepan)
 
-// 🗺️ARRAY
+// 🗺️ 9. ARRAY
 // const buah1 = 'apel'
 // const buah2 = 'jeruk'
 // const buah3 = 'durian'
@@ -272,7 +272,7 @@ console.log(typeof(nama))
 
 // console.log(ligaChampions.indexOf('Sevilla'))
 
-// 🗺️OBJECT
+// 🗺️ 10. OBJECT
 // const profileRealMadrid = {
 //   liga: 'La Liga',
 //   peringkatLiga: 3,
@@ -311,7 +311,7 @@ console.log(typeof(nama))
 // console.log(profileKlubLigaChampions)
 // console.log(profileKlubLigaChampions.manUnited.stadion)
 
-// 🗺️LOOP & ITERATION
+// 🗺️ 11. LOOP & ITERATION
 // const buah = ['apel', 'jeruk', 'mangga', 'melon', 'durian', 'nangka']
 // console.log(buah)
 
@@ -387,7 +387,7 @@ console.log(typeof(nama))
 //   urutan++
 // }
 
-// 🗺️DOM Manipulation - call element
+// 🗺️ 12. DOM Manipulation - call element
 // console.log(document)
 // console.log(document.body)
 // console.log(document.head.title) //cannot access title element
@@ -399,7 +399,7 @@ console.log(typeof(nama))
 // console.log(document.head.children[0])
 // console.log(document.head.children[2])
 
-// 🗺️ DOM Manipulation - change inner HTML
+// 🗺️ 13. DOM Manipulation - change inner HTML
 
 // const testingDom = document.head
 // testingDom.push('hello world') // DOM is array-like, not actual array
@@ -444,7 +444,7 @@ console.log(typeof(nama))
 //   judulUbah[i].innerHTML = 'Geocourse.id'
 // }
 
-// 🗺️ DOM Manipulation - HTML attribute
+// 🗺️ 14. DOM Manipulation - HTML attribute
 // const judul = document.getElementsByTagName('h1')
 // judul[6].className = 'testing'
 // // judul[6].id = 'item-25'
@@ -454,7 +454,7 @@ console.log(typeof(nama))
 
 // console.log(judul[6])
 
-// 🗺️ DOM Manipulation - add, delete dan replace element
+// 🗺️ 15. DOM Manipulation - add, delete dan replace element
 // const divisi = document.createElement('div')
 // const judul1 = document.createElement('h1')
 // judul1.innerHTML = 'WebGIS'
@@ -476,7 +476,7 @@ console.log(typeof(nama))
 
 // console.log(document.getElementsByTagName('body')[0])
 
-// 🗺️ DOM Manipulation - Event Handler
+// 🗺️ 16. DOM Manipulation - Event Handler
 // const divisi = document.createElement('div')
 // document.body.appendChild(divisi)
 
@@ -525,7 +525,7 @@ console.log(typeof(nama))
 //   return angkaHTML.innerHTML = angka
 // }
 
-// 🗺️ DOM Manipulation - Query
+// 🗺️ 17. DOM Manipulation - Query
 // const element = document.getElementsByTagName('h1')
 // console.log(element)
 
@@ -546,7 +546,7 @@ console.log(typeof(nama))
 // const kueri = document.querySelectorAll('div.primer > h2[data="invalid"]')
 // console.log(kueri)
 
-// 🗺️ DOM Manipulation - CASE: Change image by number
+// 🗺️ 18. DOM Manipulation - CASE: Change image by number + Refactoring
 // CASE:
 // 1. Facebook
 // 2. Instagram
@@ -554,63 +554,300 @@ console.log(typeof(nama))
 // 4. LinkedIn
 // 5. Twitter
 
+// const divisi = document.createElement('div')
+// document.body.appendChild(divisi)
+
+// const gambar = document.createElement('img')
+// gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
+// gambar.height = '100'
+// divisi.appendChild(gambar)
+
+// let angka = 1
+// const teks = document.createElement('h3')
+// teks.innerHTML = `Peringkat: ${angka}`
+// divisi.appendChild(teks)
+
+// const tombolNaik = document.createElement('button')
+// tombolNaik.innerHTML = 'Naik'
+// tombolNaik.style.backgroundColor = 'green'
+// tombolNaik.style.color = 'white'
+// divisi.appendChild(tombolNaik)
+
+// function ubahLogo(logic){
+//   logic
+//   switch(angka) { // metode switch
+//     case 1:
+//       gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
+//       break;
+//     case 2:
+//       gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.JtmXSh_uyZBaTg1eXd-NtgHaHa%26pid%3DApi&f=1&ipt=d584034ef42e320a3e263cb7450f0657ff2be6402e7320755a132fa3df3db11a&ipo=images'
+//       break;
+//     case 3:
+//       gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IMt2d1p04pNAyBdnlHC7-gHaHa%26pid%3DApi&f=1&ipt=c730693b75bcf83ebb76465ff5b2bd721777329038920b8bd5709c38c43fd66c&ipo=images'
+//       break;
+//     case 4:
+//       gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.w_zDkEJ9aLiWR-g0rff8hwHaHa%26pid%3DApi&f=1&ipt=75d65cf122503b69cea4946661a0708aa667466a3c7a7c93b338a89bb16fd1b7&ipo=images'
+//       break;
+//     case 5:
+//       gambar.src = 'https://cdn.punchng.com/wp-content/uploads/2023/07/24084806/Twitter-new-logo.jpeg'
+//     // gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.H836RvDYYgQZcZn0TC8qBAHaHa%26pid%3DApi&f=1&ipt=c95aedcf75b0eb29c531166d452aa8f969977680fcb0d2c1c40809cf77ce41d7&ipo=images'
+//       break;
+//     default:
+//       gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AIqkBUv22YkLhZ5vBIyhQwHaHa%26pid%3DApi&f=1&ipt=384f5d825937ebd4609726b5d98811d0f7232cc4807d8f3bc167d94d7025ee91&ipo=images'
+//   }
+
+  // if(angka === 1){ // Metode if...else
+  //   gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
+  // } else if(angka === 2){
+  //   gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.JtmXSh_uyZBaTg1eXd-NtgHaHa%26pid%3DApi&f=1&ipt=d584034ef42e320a3e263cb7450f0657ff2be6402e7320755a132fa3df3db11a&ipo=images'
+  // } else if(angka === 3){
+  //   gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IMt2d1p04pNAyBdnlHC7-gHaHa%26pid%3DApi&f=1&ipt=c730693b75bcf83ebb76465ff5b2bd721777329038920b8bd5709c38c43fd66c&ipo=images'
+  // } else if(angka === 4){
+  //   gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.w_zDkEJ9aLiWR-g0rff8hwHaHa%26pid%3DApi&f=1&ipt=75d65cf122503b69cea4946661a0708aa667466a3c7a7c93b338a89bb16fd1b7&ipo=images'
+  // } else if(angka === 5){
+  //   gambar.src = 'https://cdn.punchng.com/wp-content/uploads/2023/07/24084806/Twitter-new-logo.jpeg'
+  //   // gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.H836RvDYYgQZcZn0TC8qBAHaHa%26pid%3DApi&f=1&ipt=c95aedcf75b0eb29c531166d452aa8f969977680fcb0d2c1c40809cf77ce41d7&ipo=images'
+  // } else{
+  //   gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AIqkBUv22YkLhZ5vBIyhQwHaHa%26pid%3DApi&f=1&ipt=384f5d825937ebd4609726b5d98811d0f7232cc4807d8f3bc167d94d7025ee91&ipo=images'
+  // }
+//   return teks.innerHTML = `Peringkat: ${angka}`
+// }
+
+// tombolNaik.addEventListener('click', function(){
+//   return ubahLogo(angka++)
+// }) // normal function
+
+// tombolNaik.addEventListener('click', () => ubahLogo(angka++)) // metode event listener Arrow function
+// tombolNaik.onclick = () => ubahLogo(angka++) // metode onclick arrow function
+
+// tombolNaik.onclick = function(){ // code not DRY, duplication with tombolTurun
+//   angka++
+//   if(angka === 1){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
+//   } else if(angka === 2){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.JtmXSh_uyZBaTg1eXd-NtgHaHa%26pid%3DApi&f=1&ipt=d584034ef42e320a3e263cb7450f0657ff2be6402e7320755a132fa3df3db11a&ipo=images'
+//   } else if(angka === 3){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IMt2d1p04pNAyBdnlHC7-gHaHa%26pid%3DApi&f=1&ipt=c730693b75bcf83ebb76465ff5b2bd721777329038920b8bd5709c38c43fd66c&ipo=images'
+//   } else if(angka === 4){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.w_zDkEJ9aLiWR-g0rff8hwHaHa%26pid%3DApi&f=1&ipt=75d65cf122503b69cea4946661a0708aa667466a3c7a7c93b338a89bb16fd1b7&ipo=images'
+//   } else if(angka === 5){
+//     gambar.src = 'https://cdn.punchng.com/wp-content/uploads/2023/07/24084806/Twitter-new-logo.jpeg'
+//     // gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.H836RvDYYgQZcZn0TC8qBAHaHa%26pid%3DApi&f=1&ipt=c95aedcf75b0eb29c531166d452aa8f969977680fcb0d2c1c40809cf77ce41d7&ipo=images'
+//   } else{
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AIqkBUv22YkLhZ5vBIyhQwHaHa%26pid%3DApi&f=1&ipt=384f5d825937ebd4609726b5d98811d0f7232cc4807d8f3bc167d94d7025ee91&ipo=images'
+//   }
+//   return teks.innerHTML = `Peringkat: ${angka}`
+// }
+
+// const tombolTurun = document.createElement('button')
+// tombolTurun.innerHTML = 'Turun'
+// tombolTurun.style.backgroundColor = 'red'
+// tombolTurun.style.color = 'white'
+// divisi.appendChild(tombolTurun)
+
+// tombolTurun.addEventListener('click', function(){
+//   return ubahLogo(angka--)
+// }) // Normal function
+
+// tombolTurun.addEventListener('click', () => ubahLogo(angka--)) // Arrow function
+// tombolTurun.onclick = () => ubahLogo(angka--) // metode onclick arrow function
+
+// tombolTurun.onclick = function(){ // code not DRY, duplication with tombolNaik
+//   angka--
+//   if(angka === 1){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
+//   } else if(angka === 2){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.JtmXSh_uyZBaTg1eXd-NtgHaHa%26pid%3DApi&f=1&ipt=d584034ef42e320a3e263cb7450f0657ff2be6402e7320755a132fa3df3db11a&ipo=images'
+//   } else if(angka === 3){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IMt2d1p04pNAyBdnlHC7-gHaHa%26pid%3DApi&f=1&ipt=c730693b75bcf83ebb76465ff5b2bd721777329038920b8bd5709c38c43fd66c&ipo=images'
+//   } else if(angka === 4){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.w_zDkEJ9aLiWR-g0rff8hwHaHa%26pid%3DApi&f=1&ipt=75d65cf122503b69cea4946661a0708aa667466a3c7a7c93b338a89bb16fd1b7&ipo=images'
+//   } else if(angka === 5){
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.H836RvDYYgQZcZn0TC8qBAHaHa%26pid%3DApi&f=1&ipt=c95aedcf75b0eb29c531166d452aa8f969977680fcb0d2c1c40809cf77ce41d7&ipo=images'
+//   } else{
+//     gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AIqkBUv22YkLhZ5vBIyhQwHaHa%26pid%3DApi&f=1&ipt=384f5d825937ebd4609726b5d98811d0f7232cc4807d8f3bc167d94d7025ee91&ipo=images'
+//   }
+//   return teks.innerHTML = `Peringkat: ${angka}`
+// }
+
+// 🗺️ 19. WebAPI JavaScript - Console
+// console.log('hello world')
+// console.clear()
+// console.error('terjadi kesalahan kode')
+
+// 🗺️ 20. WebAPI JavaScript - Validation
+// const divisi = document.createElement('div')
+// document.body.appendChild(divisi)
+
+// const judul = document.createElement('h1')
+// judul.innerHTML = 'Ujicoba Validasi'
+// divisi.appendChild(judul)
+
+// const label = document.createElement('p')
+// label.innerHTML = 'Masukkan nilai lintang:'
+// divisi.appendChild(label)
+
+// const pilihan = document.createElement('select')
+// pilihan.name = 'poros-koordinat'
+// pilihan.id = 'poros-koordinat'
+// divisi.appendChild(pilihan)
+
+// const defaultValue = document.createElement('option')
+// defaultValue.value = '-- Pilih kategori --'
+// defaultValue.innerHTML = '-- Pilih kategori --'
+// defaultValue.defaultSelected = true
+// pilihan.appendChild(defaultValue)
+
+// const lintang = document.createElement('option')
+// lintang.value = 'Lintang'
+// lintang.innerHTML = 'Lintang'
+// pilihan.appendChild(lintang)
+
+// const bujur = document.createElement('option')
+// bujur.value = 'Bujur'
+// bujur.innerHTML = 'Bujur'
+// pilihan.appendChild(bujur)
+
+// const inputData = document.createElement('input')
+// inputData.type = 'number'
+// divisi.appendChild(inputData)
+
+// const tombolSubmit = document.createElement('button')
+// tombolSubmit.type = 'submit'
+// tombolSubmit.innerHTML = 'Kirim'
+// divisi.appendChild(tombolSubmit)
+
+// const pesanError = document.createElement('p')
+// divisi.appendChild(pesanError)
+
+// function validasi(){
+  // LOGIC
+  // Lintang = [min(-90), max(90)]
+  // Bujur = [min(-180), max(180)]
+
+//   pilihan.onchange = function(){
+//     const opsi = this.value
+//     if(opsi === 'Lintang'){
+//       inputData.min = 0
+//       inputData.max = 90
+//     } else{
+//       inputData.min = 0
+//       inputData.max = 180
+//     }
+
+//     if(inputData.checkValidity() && opsi == 'Lintang'){
+//       return pesanError.innerHTML = `Data valid, dipilih lintang`
+//     } else if(inputData.checkValidity() && opsi == 'Bujur') {
+//       return pesanError.innerHTML = `Data valid, dipilih bujur`
+//     } else{
+//       return pesanError.innerHTML = `Data tidak valid`
+//     }
+//   }
+
+// }
+
+// tombolSubmit.onclick = () => validasi()
+
+// 🗺️ 21. WebAPI - Fetch
+// const divisi = document.createElement('div')
+// document.body.appendChild(divisi)
+
+// const judul = document.createElement('h1')
+// judul.innerHTML = 'Ujicoba Fetch'
+// divisi.appendChild(judul)
+
+// const foto = document.createElement('img')
+// foto.height = '150'
+// divisi.appendChild(foto)
+
+// const para = document.createElement('p')
+// para.innerHTML = 'Hello World'
+// divisi.appendChild(para)
+
+// const tombolBack = document.createElement('button')
+// tombolBack.innerHTML = 'Back'
+// divisi.appendChild(tombolBack)
+
+
+// const tombolNext = document.createElement('button')
+// tombolNext.innerHTML = 'Next'
+// divisi.appendChild(tombolNext)
+
+// let urutan = 10;
+
+// fetch(`https://jsonplaceholder.typicode.com/photos/${urutan}`)
+//   .then(response => response.json())
+//   .then(function(json){
+//     para.innerHTML = json.title
+//     foto.src = json.thumbnailUrl
+//   })
+
+// tombolBack.onclick = function(){
+//   urutan--
+//   fetch(`https://jsonplaceholder.typicode.com/photos/${urutan}`)
+//     .then(response => response.json())
+//     .then(function(json){
+//       para.innerHTML = json.title
+//       foto.src = json.thumbnailUrl
+//     })
+// }
+
+// tombolNext.onclick = function(){
+//   urutan++
+//   fetch(`https://jsonplaceholder.typicode.com/photos/${urutan}`)
+//     .then(response => response.json())
+//     .then(function(json){
+//       para.innerHTML = json.title
+//       foto.src = json.thumbnailUrl
+//     })
+// }
+
+// 🗺️ 22. WebAPI - Geolokasi
 const divisi = document.createElement('div')
 document.body.appendChild(divisi)
 
-const gambar = document.createElement('img')
-gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
-gambar.height = '100'
-divisi.appendChild(gambar)
+const judul = document.createElement('h1')
+judul.innerHTML = 'Ujicoba Geolokasi'
+divisi.appendChild(judul)
 
-let angka = 1
-const teks = document.createElement('h3')
-teks.innerHTML = `Peringkat: ${angka}`
-divisi.appendChild(teks)
+const lintang = document.createElement('p')
+lintang.innerHTML = 'Lintang'
+divisi.appendChild(lintang)
 
-const tombolNaik = document.createElement('button')
-tombolNaik.innerHTML = 'Naik'
-tombolNaik.style.backgroundColor = 'green'
-tombolNaik.style.color = 'white'
-divisi.appendChild(tombolNaik)
+const bujur = document.createElement('p')
+bujur.innerHTML = 'Bujur'
+divisi.appendChild(bujur)
 
-tombolNaik.onclick = function(){
-  angka++
-  if(angka === 1){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
-  } else if(angka === 2){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.JtmXSh_uyZBaTg1eXd-NtgHaHa%26pid%3DApi&f=1&ipt=d584034ef42e320a3e263cb7450f0657ff2be6402e7320755a132fa3df3db11a&ipo=images'
-  } else if(angka === 3){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IMt2d1p04pNAyBdnlHC7-gHaHa%26pid%3DApi&f=1&ipt=c730693b75bcf83ebb76465ff5b2bd721777329038920b8bd5709c38c43fd66c&ipo=images'
-  } else if(angka === 4){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.w_zDkEJ9aLiWR-g0rff8hwHaHa%26pid%3DApi&f=1&ipt=75d65cf122503b69cea4946661a0708aa667466a3c7a7c93b338a89bb16fd1b7&ipo=images'
-  } else if(angka === 5){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.H836RvDYYgQZcZn0TC8qBAHaHa%26pid%3DApi&f=1&ipt=c95aedcf75b0eb29c531166d452aa8f969977680fcb0d2c1c40809cf77ce41d7&ipo=images'
-  } else{
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AIqkBUv22YkLhZ5vBIyhQwHaHa%26pid%3DApi&f=1&ipt=384f5d825937ebd4609726b5d98811d0f7232cc4807d8f3bc167d94d7025ee91&ipo=images'
-  }
-  return teks.innerHTML = `Peringkat: ${angka}`
+const ketinggian = document.createElement('p')
+ketinggian.innerHTML = 'Ketinggian'
+divisi.appendChild(ketinggian)
+
+const timestamp = document.createElement('p')
+timestamp.innerHTML = 'Timestamp'
+divisi.appendChild(timestamp)
+
+const tombol = document.createElement('button')
+tombol.innerHTML = 'Tampilkan koordinat'
+divisi.appendChild(tombol)
+
+tombol.onclick = function(){
+  return getLocation()
 }
 
-const tombolTurun = document.createElement('button')
-tombolTurun.innerHTML = 'Turun'
-tombolTurun.style.backgroundColor = 'red'
-tombolTurun.style.color = 'white'
-divisi.appendChild(tombolTurun)
-
-tombolTurun.onclick = function(){
-  angka--
-  if(angka === 1){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-S8HTBQqmfcs%2FXN0ACIRD9PI%2FAAAAAAAAAlo%2FFLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw%2Fs1600%2Ff_logo_RGB-Blue_1024.png&f=1&nofb=1&ipt=e10f40cc2c622f2922096defefed8a82b8831a692d040f830711a6469deb4aa9&ipo=images'
-  } else if(angka === 2){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.JtmXSh_uyZBaTg1eXd-NtgHaHa%26pid%3DApi&f=1&ipt=d584034ef42e320a3e263cb7450f0657ff2be6402e7320755a132fa3df3db11a&ipo=images'
-  } else if(angka === 3){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IMt2d1p04pNAyBdnlHC7-gHaHa%26pid%3DApi&f=1&ipt=c730693b75bcf83ebb76465ff5b2bd721777329038920b8bd5709c38c43fd66c&ipo=images'
-  } else if(angka === 4){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.w_zDkEJ9aLiWR-g0rff8hwHaHa%26pid%3DApi&f=1&ipt=75d65cf122503b69cea4946661a0708aa667466a3c7a7c93b338a89bb16fd1b7&ipo=images'
-  } else if(angka === 5){
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.H836RvDYYgQZcZn0TC8qBAHaHa%26pid%3DApi&f=1&ipt=c95aedcf75b0eb29c531166d452aa8f969977680fcb0d2c1c40809cf77ce41d7&ipo=images'
-  } else{
-    gambar.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AIqkBUv22YkLhZ5vBIyhQwHaHa%26pid%3DApi&f=1&ipt=384f5d825937ebd4609726b5d98811d0f7232cc4807d8f3bc167d94d7025ee91&ipo=images'
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    lintang.innerHTML = "Geolocation is not supported by this browser.";
+    bujur.innerHTML = "Geolocation is not supported by this browser.";
+    ketinggian.innerHTML = "Geolocation is not supported by this browser.";
+    timestamp.innerHTML = "Geolocation is not supported by this browser.";
   }
-  return teks.innerHTML = `Peringkat: ${angka}`
+}
+
+function showPosition(position) {
+  lintang.innerHTML = `Lintang = ${position.coords.latitude}`
+  bujur.innerHTML = `Bujur = ${position.coords.longitude}`
+  ketinggian.innerHTML = `Ketinggian = ${position.coords.altitude}` // tidak keluar jika GPS tidak support koordinat ketinggian
+  timestamp.innerHTML = `Waktu Pengambilan = ${new Date(position.timestamp)}` // UNIX time
 }
